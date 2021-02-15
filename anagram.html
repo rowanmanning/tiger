@@ -2,16 +2,14 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link href="/styles.css" rel="stylesheet">
+
 		<title></title>
 	</head>
 
 	<body>
-		<h1>Tiger king here</h1>
-		<p>Using <a href="https://docs.google.com/spreadsheets/d/1guvOnbei4PB9x6k9tudz4bZKniTUF9pCDwjr5z5sbAU/edit#gid=0">this word search</a> can you answer the following question?</a></p>
-		<p>What type of diet do the big cats at my zoo have?</p>
-		
-		<form action="/.netlify/functions/search" method="POST">
+		<h1>Correct</h1>
+		<p>Now do you know which popular word this year is an anagram of Carnivorous?</p>
+		<form action="/.netlify/functions/anagram" method="POST">
 			<input type="text" id="character1" name="character1" required minlength="1" maxlength="1">
 			<input type="text" id="character2" name="character2" required minlength="1" maxlength="1">
 			<input type="text" id="character3" name="character3" required minlength="1" maxlength="1">
@@ -23,9 +21,6 @@
 			<input type="text" id="character9" name="character9" required minlength="1" maxlength="1">
 			<input type="text" id="character10" name="character10" required minlength="1" maxlength="1">
 			<input type="text" id="character11" name="character11" required minlength="1" maxlength="1">
-			<label> Please enter the coordinates where you found the first character of the word
-			<input type="text" id="coordinates" name="coordinates" placeholder="A1" required minlength="2" maxlength="3">
-			</label>
 			<input type="submit" value="Submit">
 		</form>
 	</body>
