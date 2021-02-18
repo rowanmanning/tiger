@@ -1,11 +1,10 @@
 /*
 * Because I am being lazy and string matching we need to answers
-* One for each version of the coordinates (c13 or 13c)
+* One for each version of the coordinates (c2 or 2c)
 */
-
 const correctAnswers = [
-    'character1=c&character2=a&character3=r&character4=n&character5=i&character6=v&character7=o&character8=r&character9=o&character10=u&character11=s&coordinates=c13',
-    'character1=c&character2=a&character3=r&character4=n&character5=i&character6=v&character7=o&character8=r&character9=o&character10=u&character11=s&coordinates=13c',
+    'answer=carnivorous&coordinates=c2',
+    'answer=carnivorous&coordinates=2c',
 ]
 
 exports.handler = async function(event, context) {
