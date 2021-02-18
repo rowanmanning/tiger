@@ -1,0 +1,96 @@
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    background-image: url(images/tiger-print.png);
+    background-size: cover;
+    background-repeat: repeat;
+    padding-bottom: 200px;
+
+}
+
+.wrapper--about {
+    display: flex;
+}
+
+.wrapper--about img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.main-container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1234px) {
+    .main-container {
+        width: 75%;
+    }  
+}
+
+.left-container {
+    flex: 0 1 50%;
+    min-height: 100%;
+    max-width: 50%;
+    margin-right: 5px;
+}
+
+.right-container {
+    flex: 0 1 50%;
+    height: 100%;
+    max-width: 50%;
+    margin-left: 5px;
+}
+
+.panel {
+    padding: 5px 10px;
+    margin-top: 20px;
+    background:#f7941e;
+    border: 3px solid #000;
+}
+
+.profile--grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 10px;
+}
+
+
+.wordsearch {
+    font-size: 20px;
+}
+
+.wordsearch__header {
+    background: black;
+    color: orange;
+    font-weight: bold;
+    padding: 5px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+td {
+    text-align: center;
+    border: 1px solid grey;
+}
+ .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }

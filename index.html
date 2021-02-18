@@ -2,31 +2,398 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link href="/styles.css" rel="stylesheet">
-		<title></title>
+		<link href="styles.css" rel="stylesheet">
+		<title>MySpace: Joe Exotic</title>
 	</head>
 
-	<body>
-		<h1>Tiger king here</h1>
-		<p>Using <a href="https://docs.google.com/spreadsheets/d/1guvOnbei4PB9x6k9tudz4bZKniTUF9pCDwjr5z5sbAU/edit#gid=0">this word search</a> can you answer the following question?</a></p>
-		<p>What type of diet do the big cats at my zoo have?</p>
-		
-		<form action="/.netlify/functions/search" method="POST">
-			<input type="text" id="character1" name="character1" required minlength="1" maxlength="1">
-			<input type="text" id="character2" name="character2" required minlength="1" maxlength="1">
-			<input type="text" id="character3" name="character3" required minlength="1" maxlength="1">
-			<input type="text" id="character4" name="character4" required minlength="1" maxlength="1">
-			<input type="text" id="character5" name="character5" required minlength="1" maxlength="1">
-			<input type="text" id="character6" name="character6" required minlength="1" maxlength="1">
-			<input type="text" id="character7" name="character7" required minlength="1" maxlength="1">
-			<input type="text" id="character8" name="character8" required minlength="1" maxlength="1">
-			<input type="text" id="character9" name="character9" required minlength="1" maxlength="1">
-			<input type="text" id="character10" name="character10" required minlength="1" maxlength="1">
-			<input type="text" id="character11" name="character11" required minlength="1" maxlength="1">
-			<label> Please enter the coordinates where you found the first character of the word
-			<input type="text" id="coordinates" name="coordinates" placeholder="A1" required minlength="2" maxlength="3">
-			</label>
-			<input type="submit" value="Submit">
-		</form>
+	<body>	
+		<div class="main-container">
+			<div class="left-container">
+				<div class="panel">
+					<h2>Joe Exotic's MySpace</h2>
+					<div class="wrapper--about">
+						<img src="images/profile-image.jpg" alt="photo of joe exotic"/>
+						<div>
+							<p>"Your Whole Audience Will Say, 'Oh My God, That Guy Has A Mullet!" Thats me Joe Exotic, the Tiger King!!!!</p>
+							<p>I am glad you are huting treasure and not big cats, so to help you I have hidden your next clue in my word search.</p>
+							<p>Good luck, TK</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="panel">
+					<h2>Top Friends</h2>
+					<div class="profile--grid">
+					<div class="profile">
+						<img src="images/carole.jpg" />
+						<p>Carole Baskin</p>
+					</div>
+					<div class="profile">
+						<img src="images/louis.jpg" />
+						<p>Louis Theroux</p>
+					</div>
+					<div class="profile">
+						<img src="images/pink-panther.jpg" />
+						<p>Pink Panther</p>
+					</div>
+					<div class="profile">
+						<img src="images/tom.jpg" />
+						<p>Tom</p>
+					</div>
+					</div>
+				</div>
+				<div class="panel">
+					<h2>Need a break?</h2>
+					<p>Why not live stream some of our smaller cats</p>
+					<div class="video-wrapper">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/uEeI6Y-SCfQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="right-container">
+				<div class="panel">
+					<h2>My Music</h2>
+					<p>"I like big cats and I can not lie, you other brothers can't deny that when a kitty walks in with an itty bitty face and a round mane in your face, you get sprung"</p>
+				</div>
+				<div class="panel">
+					<h2>My word search</h2>
+					<p>Can you solve my word search? Your clue is "What type of diet do the big cats at my zoo have?"</p>
+					<p>Submit your answer below</p>
+					<table class="wordsearch" cellspacing="0" cellpadding="0">
+						<thead>
+							<tr class="wordsearch__header">
+								<th></th>
+								<th  class="column-headers-background">A</th>
+								<th  class="column-headers-background">B</th>
+								<th  class="column-headers-background">C</th>
+								<th  class="column-headers-background">D</th>
+								<th  class="column-headers-background">E</th>
+								<th  class="column-headers-background">F</th>
+								<th  class="column-headers-background">G</th>
+								<th  class="column-headers-background">H</th>
+								<th  class="column-headers-background">I</th>
+								<th  class="column-headers-background">J</th>
+								<th  class="column-headers-background">K</th>
+								<th  class="column-headers-background">L</th>
+								<th  class="column-headers-background">M</th>
+								<th  class="column-headers-background">N</th>
+								<th  class="column-headers-background">O</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr style='height:20px;'>
+								<th id="0R0" style="height: 20px;" class="wordsearch__header">
+									<div class="row-header-wrapper" style="line-height: 20px;">1</div>
+								</th>
+								<td>N</td>
+								<td>Z</td>
+								<td>W</td>
+								<td>J</td>
+								<td>V</td>
+								<td>K</td>
+								<td>E</td>
+								<td>J</td>
+								<td>M</td>
+								<td>L</td>
+								<td>U</td>
+								<td>B</td>
+								<td>P</td>
+								<td>E</td>
+								<td>M</td>
+							</tr>
+							<tr style='height:20px;'>
+								<th id="0R1" style="height: 20px;" class="wordsearch__header">
+									<div class="row-header-wrapper" style="line-height: 20px;">2</div>
+								</th>
+								<td>C</td>
+								<td>H</td>
+								<td>C</td>
+								<td>D</td>
+								<td>L</td>
+								<td>E</td>
+								<td>P</td>
+								<td>E</td>
+								<td>O</td>
+								<td>I</td>
+								<td>H</td>
+								<td>U</td>
+								<td>Z</td>
+								<td>C</td>
+								<td>E</td>
+							</tr>
+							<tr style='height:20px;'>
+								<th id="0R2" style="height: 20px;" class="wordsearch__header">
+									<div class="row-header-wrapper" style="line-height: 20px;">3</div>
+								</th>
+								<td>H</td>
+								<td>Z</td>
+								<td>A</td>
+								<td>Z</td>
+								<td>J</td>
+								<td>F</td>
+								<td>T</td>
+								<td>Y</td>
+								<td>W</td>
+								<td>J</td>
+								<td>F</td>
+								<td>C</td>
+								<td>E</td>
+								<td>P</td>
+								<td>E</td>
+							</tr>
+							<tr style='height:20px;'>
+								<th id="0R3" style="height: 20px;" class="wordsearch__header">
+									<div class="row-header-wrapper" style="line-height: 20px;">4</div>
+								</th>
+								<td>O</td>
+								<td>C</td>
+								<td>R</td>
+								<td>T</td>
+								<td>F</td>
+								<td>P</td>
+								<td>C</td>
+								<td>H</td>
+								<td>U</td>
+								<td>C</td>
+								<td>Y</td>
+								<td>Q</td>
+								<td>P</td>
+								<td>F</td>
+								<td>P</td>
+							</tr>
+							<tr style='height:20px;'>
+								<th id="0R4" style="height: 20px;" class="wordsearch__header">
+									<div class="row-header-wrapper" style="line-height: 20px;">5</div>
+								</th>
+								<td>Y</td>
+								<td>M</td>
+								<td>N</td>
+								<td>A</td>
+								<td>T</td>
+								<td>F</td>
+								<td>P</td>
+								<td>G</td>
+								<td>J</td>
+								<td>Q</td>
+								<td>J</td>
+								<td>X</td>
+								<td>D</td>
+								<td>J</td>
+								<td>Q</td>
+							</tr>
+							<tr style='height:20px;'>
+								<th id="0R5" style="height: 20px;" class="wordsearch__header">
+									<div class="row-header-wrapper" style="line-height: 20px;">6</div>
+								</th>
+								<td>S</td>
+								<td>B</td>
+								<td>I</td>
+								<td>K</td>
+								<td>N</td>
+								<td>Q</td>
+								<td>L</td>
+								<td>K</td>
+								<td>V</td>
+								<td>N</td>
+								<td>Q</td>
+								<td>B</td>
+								<td>N</td>
+								<td>O</td>
+								<td>S</td>
+							</tr>
+							<tr style='height:20px;'>
+								<th id="0R6" style="height: 20px;" class="wordsearch__header">
+									<div class="row-header-wrapper" style="line-height: 20px;">7</div>
+								</th>
+								<td>N</td>
+								<td>M</td>
+								<td>V</td>
+								<td>J</td>
+								<td>C</td>
+								<td>T</td>
+								<td>E</td>
+								<td>Z</td>
+								<td>C</td>
+								<td>I</td>
+								<td>H</td>
+								<td>U</td>
+								<td>T</td>
+								<td>C</td>
+								<td>T</td>
+							</tr>
+							<tr style='height:20px;'>
+								<th id="0R7" style="height: 20px;" class="wordsearch__header">
+									<div class="row-header-wrapper" style="line-height: 20px;">8</div>
+								</th>
+								<td>U</td>
+								<td>Z</td>
+								<td>O</td>
+								<td>I</td>
+								<td>H</td>
+								<td>U</td>
+								<td>T</td>
+								<td>E</td>
+								<td>Z</td>
+								<td>C</td>
+								<td>C</td>
+								<td>O</td>
+								<td>Q</td>
+								<td>H</td>
+								<td>U</td>
+							</tr>
+							<tr style='height:20px;'>
+								<th id="0R8" style="height: 20px;" class="wordsearch__header">
+									<div class="row-header-wrapper" style="line-height: 20px;">9</div>
+								</th>
+								<td>B</td>
+								<td>S</td>
+								<td>R</td>
+								<td>I</td>
+								<td>I</td>
+								<td>A</td>
+								<td>X</td>
+								<td>W</td>
+								<td>X</td>
+								<td>S</td>
+								<td>O</td>
+								<td>Q</td>
+								<td>K</td>
+								<td>G</td>
+								<td>S</td>
+							</tr>
+							<tr style='height:20px;'>
+								<th id="0R9" style="height: 20px;" class="wordsearch__header">
+									<div class="row-header-wrapper" style="line-height: 20px;">10</div>
+								</th>
+								<td>K</td>
+								<td>G</td>
+								<td>O</td>
+								<td>X</td>
+								<td>G</td>
+								<td>L</td>
+								<td>V</td>
+								<td>M</td>
+								<td>O</td>
+								<td>I</td>
+								<td>H</td>
+								<td>U</td>
+								<td>V</td>
+								<td>G</td>
+								<td>L</td>
+							</tr>
+							<tr style='height:20px;'>
+								<th id="0R10" style="height: 20px;" class="wordsearch__header">
+									<div class="row-header-wrapper" style="line-height: 20px;">11</div>
+								</th>
+								<td>P</td>
+								<td>L</td>
+								<td>U</td>
+								<td>V</td>
+								<td>C</td>
+								<td>I</td>
+								<td>E</td>
+								<td>U</td>
+								<td>B</td>
+								<td>N</td>
+								<td>O</td>
+								<td>S</td>
+								<td>F</td>
+								<td>O</td>
+								<td>S</td>
+							</tr>
+							<tr style='height:20px;'>
+								<th id="0R11" style="height: 20px;" class="wordsearch__header">
+									<div class="row-header-wrapper" style="line-height: 20px;">12</div>
+								</th>
+								<td>W</td>
+								<td>H</td>
+								<td>S</td>
+								<td>I</td>
+								<td>A</td>
+								<td>X</td>	
+								<td>B</td>
+								<td>A</td>
+								<td>J</td>
+								<td>Z</td>
+								<td>W</td>
+								<td>X</td>
+								<td>D</td>
+								<td>A</td>
+								<td>K</td>
+							</tr>
+							<tr style='height:20px;'>
+								<th id="0R12" style="height: 20px;" class="wordsearch__header">
+									<div class="row-header-wrapper" style="line-height: 20px;">13</div>
+								</th>
+								<td>P</td>
+								<td>O</td>
+								<td>S</td>
+								<td>I</td>
+								<td>B</td>
+								<td>N</td>
+								<td>G</td>
+								<td>M</td>
+								<td>L</td>
+								<td>B</td>
+								<td>P</td>
+								<td>J</td>
+								<td>W</td>
+								<td>Z</td>
+								<td>B</td>
+							</tr>
+							<tr style='height:20px;'>
+								<th id="0R13" style="height: 20px;" class="wordsearch__header">
+									<div class="row-header-wrapper" style="line-height: 20px;">14</div>
+								</th>
+								<td>O</td>
+								<td>B</td>
+								<td>A</td>
+								<td>J</td>
+								<td>Z</td>
+								<td>D</td>
+								<td>O</td>
+								<td>C</td>
+								<td>I</td>
+								<td>B</td>
+								<td>T</td>
+								<td>B</td>
+								<td>N</td>
+								<td>Z</td>
+								<td>D</td>
+							</tr>
+							<tr style='height:20px;'>
+								<th id="0R14" style="height: 20px;" class="wordsearch__header">
+									<div class="row-header-wrapper" style="line-height: 20px;">15</div>
+								</th>
+								<td>J</td>
+								<td>Y</td>
+								<td>R</td>
+								<td>G</td>
+								<td>M</td>
+								<td>L</td>
+								<td>B</td>
+								<td>P</td>
+								<td>E</td>
+								<td>M</td>
+								<td>L</td>
+								<td>N</td>
+								<td>Z</td>
+								<td>W</td>
+								<td>J</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<form action="/.netlify/functions/search" method="POST">
+						<label>Please enter your answer</label>
+						<input type="text" id="answer" name="answer" required minlength="11" maxlength="11" placeholder="Answer">
+						<label>and the coordinates where you found the first character of the word</label>
+						<input type="text" id="coordinates" name="coordinates" placeholder="A1" required minlength="2" maxlength="3">
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+			</div>
+
+		</div>
 	</body>
 </html>
