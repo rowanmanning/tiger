@@ -14,7 +14,7 @@ exports.handler = async function(event, context) {
         return {
             statusCode: 301,
             headers: {
-                Location: 'https://theft.io/anagram',
+                Location: 'https://theft.lol/anagram',
             }
         };
     }
@@ -22,7 +22,7 @@ exports.handler = async function(event, context) {
     return {
         statusCode: 301,
         headers: {
-            Location: 'https://theft.io/search-fail',
+            Location: 'https://theft.lol/search-fail',
         }
     };
 }

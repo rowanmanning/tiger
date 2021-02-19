@@ -7,7 +7,7 @@ exports.handler = async function(event, context) {
         return {
             statusCode: 301,
             headers: {
-                Location: 'https://theft.io/next-clue',
+                Location: 'https://theft.lol/next-clue',
             }
         };
     }
@@ -15,7 +15,7 @@ exports.handler = async function(event, context) {
     return {
         statusCode: 301,
         headers: {
-            Location: 'https://theft.io/anagram-fail',
+            Location: 'https://theft.lol/anagram-fail',
         }
     };
 }
