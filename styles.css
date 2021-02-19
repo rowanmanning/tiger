@@ -18,12 +18,23 @@ body.speech {
     background-position: bottom left;
 }
 
+body.monolith {
+    position: relative;
+    background-image: url(images/monolith.jpg);
+    background-size:cover;
+    background-repeat: repeat;
+}
+
 div.speech {
     background: #fff;
     padding: 5px;
     position: absolute;
     bottom: 85px;
     left: 125px;
+}
+
+p {
+    font-size: 18px;
 }
 
 .wrapper--about {
@@ -69,11 +80,17 @@ div.speech {
 }
 
 .panel {
-    padding: 5px 10px;
+    padding: 10px;
     margin-top: 20px;
     background:#f7941e;
     border: 3px solid #000;
 }
+
+.monolith .panel {
+    background:rgba(255, 255, 255, 0.8);
+    border: 3px solid #000;
+}
+
 
 .profile--grid {
     display: grid;
