@@ -8,8 +8,22 @@ body {
     background-image: url(images/tiger-print.png);
     background-size: cover;
     background-repeat: repeat;
-    padding-bottom: 200px;
+}
 
+body.speech {
+    position: relative;
+    background-image: url(images/joe.png), url(images/tiger-print.png);
+    background-size: auto, cover;
+    background-repeat: no-repeat, repeat;
+    background-position: bottom left;
+}
+
+div.speech {
+    background: #fff;
+    padding: 5px;
+    position: absolute;
+    bottom: 85px;
+    left: 125px;
 }
 
 .wrapper--about {
@@ -46,6 +60,12 @@ body {
     height: 100%;
     max-width: 50%;
     margin-left: 5px;
+}
+
+.full-container {
+    height: 100%;
+    width: 100%;
+    text-align: center;
 }
 
 .panel {

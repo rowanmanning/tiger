@@ -14,7 +14,7 @@ exports.handler = async function(event, context) {
         return {
             statusCode: 301,
             headers: {
-                Location: 'https://nifty-jones-5706aa.netlify.app/anagram',
+                Location: 'https://theft.io/anagram',
             }
         };
     }
@@ -22,7 +22,7 @@ exports.handler = async function(event, context) {
     return {
         statusCode: 301,
         headers: {
-            Location: 'https://nifty-jones-5706aa.netlify.app/search-fail',
+            Location: 'https://theft.io/search-fail',
         }
     };
 }

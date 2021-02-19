@@ -2,26 +2,28 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-
-		<title></title>
+		<link href="styles.css" rel="stylesheet">
+		<title>MySpace: Joe Exotic</title>
 	</head>
 
-	<body>
-		<h1>Correct</h1>
-		<p>Now do you know which popular word this year is an anagram of Carnivorous?</p>
-		<form action="/.netlify/functions/anagram" method="POST">
-			<input type="text" id="character1" name="character1" required minlength="1" maxlength="1">
-			<input type="text" id="character2" name="character2" required minlength="1" maxlength="1">
-			<input type="text" id="character3" name="character3" required minlength="1" maxlength="1">
-			<input type="text" id="character4" name="character4" required minlength="1" maxlength="1">
-			<input type="text" id="character5" name="character5" required minlength="1" maxlength="1">
-			<input type="text" id="character6" name="character6" required minlength="1" maxlength="1">
-			<input type="text" id="character7" name="character7" required minlength="1" maxlength="1">
-			<input type="text" id="character8" name="character8" required minlength="1" maxlength="1">
-			<input type="text" id="character9" name="character9" required minlength="1" maxlength="1">
-			<input type="text" id="character10" name="character10" required minlength="1" maxlength="1">
-			<input type="text" id="character11" name="character11" required minlength="1" maxlength="1">
-			<input type="submit" value="Submit">
-		</form>
+	<body class="speech">	
+		<div class="main-container">
+			<div class="full-container">
+				<div class="panel">
+					<h2>CON-CAT-ULATIONS</h2>
+					<p>That's sure as hell right, all my big cats are carnivorous.</p>
+					<p>But now can you figure out which word from 2020 is an anagram of carnivorous?</p>
+
+					<form action="/.netlify/functions/anagram" method="POST">
+						<label>
+							Answer
+							<input type="text" id="answer" name="answer" required minlength="11" maxlength="11">
+						</label>
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+			</div>
+			<div class="speech">Best viewed in Firefox because the logo reminds me of my big cats</div>
+		</div>
 	</body>
 </html>
